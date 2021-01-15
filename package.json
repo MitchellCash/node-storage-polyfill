@@ -1,0 +1,41 @@
+{
+  "name": "sessionstorage-polyfill",
+  "version": "1.0.0",
+  "description": "A Web Storage API polyfill for Node.js environments",
+  "keywords": [
+    "localStorage",
+    "polyfill",
+    "sessionStorage",
+    "storage",
+    "webStorage"
+  ],
+  "license": "MIT",
+  "author": "Mitchell Cash <me@mitchellcash.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MitchellCash/sessionstorage-polyfill.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "prepareOnly": "npm run build",
+    "test": "ava"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.21",
+    "ava": "^3.15.0",
+    "esm": "^3.2.25",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "xo": "^0.37.1"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

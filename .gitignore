@@ -1,0 +1,11 @@
+# JetBrains IDE project settings directory
+.idea
+
+# Build output directory
+dist
+
+# Node dependency directory
+node_modules
+
+# Package manager lock file
+package-lock.json

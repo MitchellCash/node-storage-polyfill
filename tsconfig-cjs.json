@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig-base.json",
+  "compilerOptions": {
+    /* Project Options */
+    "module": "commonjs",
+    "outDir": "./dist/cjs",
+    "target": "es5"
+  }
+}
