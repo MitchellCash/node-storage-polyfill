@@ -25,7 +25,7 @@
     "lint": "xo",
     "lint:fix": "xo --fix",
     "prepareOnly": "npm run build",
-    "test": "ava"
+    "test": "ava -v"
   },
   "devDependencies": {
     "@types/node": "^14.14.21",
