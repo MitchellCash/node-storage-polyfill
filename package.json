@@ -18,7 +18,7 @@
   "module": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MitchellCash/sessionstorage-polyfill.git"
+    "url": "https://github.com/MitchellCash/node-storage-polyfill.git"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
