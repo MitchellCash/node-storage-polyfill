@@ -1,6 +1,6 @@
 {
   "name": "node-storage-polyfill",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0",
   "description": "A Web Storage API polyfill for Node.js environments",
   "keywords": [
     "localStorage",
