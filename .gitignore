@@ -1,6 +1,9 @@
 # JetBrains IDE project settings directory
 .idea
 
+# Code coverage output
+coverage
+
 # Build output directory
 dist
 

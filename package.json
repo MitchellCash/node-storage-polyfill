@@ -33,11 +33,13 @@
     "lint": "xo",
     "lint:fix": "xo --fix",
     "prepareOnly": "npm run build",
-    "test": "ava -v"
+    "test": "ava -v",
+    "test:coverage": "c8 --reporter=text --reporter=lcov npm run test"
   },
   "devDependencies": {
     "@types/node": "^14.14.21",
     "ava": "^3.15.0",
+    "c8": "^7.4.0",
     "esm": "^3.2.25",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3",
