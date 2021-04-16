@@ -4,7 +4,7 @@ import '../src/index';
 
 const STORAGE_TYPES = [localStorage, sessionStorage];
 
-STORAGE_TYPES.forEach((storageType) => {
+for (const storageType of STORAGE_TYPES) {
   const testName = storageType === localStorage ? 'localStorage' : 'sessionStorage';
 
   test(`${testName} is globally defined in the Node environment`, (t) => {
@@ -91,4 +91,4 @@ STORAGE_TYPES.forEach((storageType) => {
     t.is(storageType.getItem, 'or this');
     t.is(storageType.length, 3);
   });
-});
+}
